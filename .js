@@ -1,8 +1,8 @@
-let writeOuput = function(text)
+let writeOutput = function(text)
 {
-    document.write(<h1>${text}</h1>)
+    document.write(<h1>${text}</h1>);
 }
-writeOuput ("Done!");
+writeOutput ("Done!");
 
 class Mamifero
 {
@@ -27,11 +27,13 @@ class Bear extends Mamifero
     }
 }
 
-let Mamifero = new Mamifero("Lucky");
-let Bear = new Bear("Vodka")
+let mamifero = new Mamifero("Bolinhas");
+let bear = new Bear("Rogerio")
+
+let mamiferos = [mamifero, bear];
 
 for (let i= 0; i <Mamifero.length; i++)
 {
-    writeOuput(Mamifero[i].name);
-    writeOuput(Mamifero[i].DrinkMilk);
+    writeOutput(mamiferos[i].name);
+    writeOutput(mamiferos[i].DrinkMilk);
 }
