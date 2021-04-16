@@ -27,8 +27,8 @@ class Bear extends Mamifero
     }
 }
 
-let mamifero = new Mamifero("Bolinhas");
-let bear = new Bear("Rogerio")
+let mamifero = new Mamifero("Lucky");
+let bear = new Bear("Vodka")
 
 let mamiferos = [mamifero, bear];
 
