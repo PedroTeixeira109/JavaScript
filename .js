@@ -12,9 +12,10 @@ class Mamifero
     }
     DrinkMilk()
     {
-        return "Look at me, i'm driking milk"
+        return "Look at me, i'm driking milk";
     }
 }
+
 class Bear extends Mamifero 
 {
     constructor(name)
@@ -23,7 +24,7 @@ class Bear extends Mamifero
     }
     DrinkMilk() 
     {
-        return"look at me, i'm eat meat"
+        return"look at me, i'm eat meat";
     }
 }
 
